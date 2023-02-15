@@ -1,0 +1,185 @@
+header{
+    width: 100%;
+    height: 170px;
+    background-color: #ffcc00;
+}
+h1{
+    color: #080808;
+}
+.headmenu{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.hmitems{
+    font-size: 150%;
+    padding-top: 10px;
+}
+.hmitems:hover{
+    background-color: #f0f093;
+}
+#cover{
+    z-index: 0;
+    width: 100%;
+}
+#search{
+    z-index: 1;
+    padding-left: 650px;
+    height: 80px;
+    margin-top: -500px;
+}
+#typebox{
+    height: 50px;
+    width: 500px;
+    display: inline;
+    text-align: end;
+    font-size: 150%;
+}
+#searchicon{
+    display: inline;
+    color: white;
+    background-color: red;
+    position: absolute;
+    height: 55px;
+    width: 80px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#track{
+    text-align: center;
+    margin-top: 18px;
+
+
+}
+#tracktitle{
+    color: white;
+}
+/* #typebox{
+    
+} */
+#logo{
+    padding-top: 40px;
+    padding-bottom: 35px;
+    width: 200px;
+    padding-left: 10px;
+}
+#nav{
+    padding-left: 40px;
+    display: inline;
+    font-size: 150%;
+    padding-bottom: 5px;
+}
+.dropdown{
+    padding-left: 40px;
+    display: inline;
+    font-size: 150%;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: black;
+    
+}
+.ddmenu{
+    display: none;
+    position: absolute;
+    padding-top: 0px;
+    margin-left: 400px;
+    z-index: 1;
+    background-color: #ffcc00;
+    width: 200px;
+
+}
+.dropdown:hover + .ddmenu {
+    display: block;
+}
+.ddmenu:hover{
+    display: block;
+}
+li{
+    list-style-type: none;
+}
+.servciceblock{
+    width: 450px;
+    height: 225px;
+    margin-left: 5px;
+    border: rgb(221, 214, 214) 2px solid;
+    border-radius: 5px;
+    background-color: rgb(241, 238, 238);
+    z-index: 1;
+    margin-top: 300px;
+    position: absolute;
+    margin-left: 250px;
+    display: inline;
+    text-align: center;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 50,
+  'wght' 4000,
+  'GRAD' 10,
+  'opsz' 480;
+  color: red;
+
+}
+
+
+
+.sbp{
+    font-size: 150%;
+}
+.sbtitle{
+    color: darkred;
+    text-align: center;
+}
+#sb2{
+    margin-left: 700px;
+}
+#sb3{
+    margin-left: 1150px;
+}
+#ls{
+    text-align: center;
+    margin-top: 575px;
+}
+.lsblock{
+    width: 32%;
+    height: 450px;
+    margin-left: 5px;
+    margin-top: 20px;
+    border: rgb(189, 185, 185) 2px solid;
+    border-radius: 5px;
+    display: inline-table;
+}
+#lsphoto{
+    width:100%;
+}
+#lsp{
+    color: darkred;
+    padding-left: 5px;
+}
+footer{
+    background-color: rgb(212, 208, 208);
+    color: #474646;
+    font-size: 150%;
+}
+#footertitle{
+    color: #000000;
+    padding-left: 40px;
+    font-size: 100%;
+}
+.fp1{
+    margin-left: 40px;
+    display: inline-block;
+}
+.fp2{
+    margin-left: 40px;
+    display: inline-block;
+}
+#copyright{
+    text-align: center;
+}
+.lsh{padding-left: 15px;}
+#icon{
+    font-size: 300%
+}
